@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+    <style>
+        .header {
+            border-bottom: 2px solid grey;
+        }
+
+        .card {
+            background-color: #eee;
+            padding: 10px;
+            margin-bottom: 10px;
+        
+        }
+
+        .color {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <p>id используют что бы уникально выделить элемент
+        <br>
+        class использую что бы придать определенную стилистику
+    </p>
+
+    <p> div блочный эллемент
+        <br>
+        span строчный элемент
+    </p>
+
+    <p>что бы быстро создать div элемент с помощью emmt можно использовать <strong>. и # </strong>
+        <ul>
+            <li>  "div.+tab" c class</li>
+            <li> "span.+tab" c class</li>
+            <li> "div#(название id)" с id</li>
+            <li> "ul.list" c class</li>
+            <li> "ul#(название id)" с id</li>
+            <li> "." div</li>
+        </ul>
+    </p>
+
+    <h2>Семантика</h2>
+        <p>  есть теги для замены div что бы поисковые системы лучше понимали наш файл html
+            <ul>
+                <li>header - заголовки</li>
+                <li>article - статьи</li>
+                <li>nav - навигация</li>
+                <li>section - секция</li>
+                <li>footer - нижний колонтитул</li>
+                <li>aside - боковое меню</li>
+            </ul>
+
+        </p>
+
+    <div id="header" class="header">
+        <h2>Site</h2>
+    </div>
+
+    <div id="navigation">
+        <ul>
+             <li><a href="#">Item 1</a></li>
+             <li><a href="#">Item 2</a></li>
+             <li><a href="#">Item 3</a></li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <div id="block1" class="card header">
+         <h3>blok 1</h3>
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <span class="color">Nobis odit exercitationem ducimus illo doloremque cum debitis error alias deserunt labore hic, tempora laborum, sapiente corporis, culpa mollitia!</span> Reprehenderit, modi recusandae!
+         </p>
+    </div>
+
+    <div id="block2" class="card">
+         <h3>blok 2</h3>
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis odit exercitationem ducimus illo doloremque cum debitis error alias deserunt labore hic, tempora laborum, sapiente corporis, culpa mollitia! Reprehenderit, modi recusandae!
+         </p>
+    </div>
+ 
+     <hr>
+     
+    <div id="footer">
+        <ul>
+            <li>Instagram</li>
+            <li>Telegram</li>
+            <li>YouTube</li>
+        </ul>
+    </div>
+   
+</body>
+</html>
